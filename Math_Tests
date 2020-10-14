@@ -1,0 +1,16 @@
+import math                      #imports the math library into the python 
+dir(math)                        #shows the list of usable math commands
+
+
+def triangle_area(b, h):         #returns the area of triangle with base b and hight h
+return 0.5 * b * h  
+
+triangle_area(3, 6) 
+9.0                              # correct 
+
+def volume(r):                   # returns the sphere volume with radius r
+v = (4.0/3.0) * math.pi * r**3   # this is the sphere volume equation 
+return v
+
+volume(2) 
+33.51032                         # correct
